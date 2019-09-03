@@ -45,7 +45,7 @@ public class Board {
         matrix = new String[this.width][this.height];
          for (int i = 0 ; i < this.height; i++) {
             for (int j = 0; j < this.width; j++) {
-                matrix[i][j] = " 0 ";
+                matrix[i][j] = "   ";
             }
         }
     }
